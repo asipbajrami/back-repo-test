@@ -38,7 +38,7 @@ public class PingResource {
     }
 
     @GET
-    @Path("/version-json-test")
+    @Path("/version-json-test-2")
     @Produces(MediaType.APPLICATION_JSON)
     public Response getVersionJsonTest() {
         Version version = new Version(this.version);
