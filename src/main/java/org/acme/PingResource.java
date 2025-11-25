@@ -37,12 +37,4 @@ public class PingResource {
         return Response.ok(version).build();
     }
 
-    @GET
-    @Path("/version-json-test")
-    @Produces(MediaType.APPLICATION_JSON)
-    public Response getVersionJsonTest() {
-        Version version = new Version(this.version);
-        return Response.ok(version).build();
-    }
-
 }
